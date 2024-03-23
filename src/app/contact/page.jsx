@@ -1,4 +1,4 @@
-// "use client";
+// "use client"
 import Image from "next/image";
 import styles from "./contact.module.css";
 // import dynamic from "next/dynamic";
@@ -12,6 +12,7 @@ import styles from "./contact.module.css";
 // };
 
 const ContactPage = () => {
+
   // const a = Math.random();
 
   // console.log(a);
