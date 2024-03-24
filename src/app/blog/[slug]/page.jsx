@@ -21,6 +21,7 @@ const SinglePostPage = async ({params}) => {
 
     // const post = await getData(slug);
     const post = await getPost(slug);
+
     return (
       <div  className={styles.container}>
         <div className={styles.imgContainer}>
@@ -40,9 +41,7 @@ const SinglePostPage = async ({params}) => {
               <span className={styles.detailValue}>01.01.2024</span>
             </div>
           </div>
-          <div className={styles.content}>
-           {post.body}
-          </div>
+          <div className={styles.content}>{post?.body}</div>
         </div>
       </div>
     )
